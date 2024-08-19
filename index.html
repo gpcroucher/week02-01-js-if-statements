@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <p>Input age:</p>
+      <input type="text" name="" id="ageInput" />
+    </div>
+    <div>
+      <p>Input movie rating:</p>
+      <input type="text" name="" id="ratingInput" />
+    </div>
+    <input
+      type="button"
+      value="Check!"
+      id="checkButton"
+      onclick="checkAgeRating(document.getElementById('ageInput').value,
+    document.getElementById('ratingInput').value)"
+    />
+    <p id="output">Enter age and rating to check suitability.</p>
+  </body>
+</html>
